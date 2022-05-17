@@ -1,13 +1,28 @@
-import moment from "moment";
+function pad2(n) {
+  return (n < 10 ? '0' : '') + n;
+}
 
-const yourDate = new Date()
-const NewDate = moment(yourDate, 'YYYY-MM-DD')
-const baseUrl = 'https://api.covid19tracking.narrativa.com/api/';
+var date = new Date();
+var month = pad2(date.getMonth()+1);//months (0-11)
+var day = pad2(date.getDate());//day (1-31)
+var year= date.getFullYear();
+
+var formattedDate =  year+"-"+month+"-"+day;
+console.log(formattedDate);
+const baseUrl = `https://api.covid19tracking.narrativa.com/api/${formattedDate}`;
 
 const getCountry = async () => {
-  const res = await fetch(`${baseUrl}${NewDate}`);
-  const countries = await res.json();
-  return countries;
+  const countries = [];
+  try {
+    const res = await fetch(
+      baseUrl,
+    );
+    const data = await res.json();
+    Object.entries(data.dates[formattedDate].countries).forEach((country) => countries.push(country[1]));
+    return countries;
+  } catch (err) {
+    return err;
+  }
 };
 
 export default getCountry;

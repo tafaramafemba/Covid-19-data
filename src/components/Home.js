@@ -1,6 +1,8 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { showCountries } from '../redux/home/home';
+import '../Home.css';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
 
@@ -18,8 +20,10 @@ const Home = () => {
       <ul>
       {state.map((country) => (
         <li key={country.id}>
-          <h3>{country.name}</h3>
-          <span>today new confirmed{country.today_new_confirmed}</span>
+          <Link to="/details">
+          <h3>{country.id}</h3>
+          <span>New cases: {country.today_confirmed}</span>
+          </Link>
         </li>
         ))}
       </ul>

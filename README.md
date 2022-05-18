@@ -1,4 +1,4 @@
-# Math Magicians
+# Covid-19 data
 This is a mobile application that tracks Covid-19 metrics.
 
 ## Built with:
@@ -23,11 +23,15 @@ In development environment use the following command:
 
 $ npm start
 
+## Test
+To run tests for all components and mock the API Call run: 
+
+$npm test
 ## Live
 
 The website is deployed on Netlify.
 
-* Netlify: [Netlify](https://626a6d509e960522d8b88852--fastidious-bonbon-e8db3d.netlify.app/)
+* Netlify: [Netlify](https://6284dbd3db22dd785216c9a7--whimsical-khapse-4192e7.netlify.app/)
 
  To see a live demo of this application follow the Loom link below:
  * Loom: [Loom](https://www.loom.com/share/a795832b10414446b9a1c6e52163d660)

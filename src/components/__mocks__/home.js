@@ -1,3 +1,3 @@
 const retrieveApiData = () => 'The API data is displayed';
-
-module.exports = { retrieveApiData};
+const filteredData = () => 'The data is filtered';
+module.exports = { retrieveApiData, filteredData};

@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Math Magicians
+This is a mobile application that tracks Covid-19 metrics.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Built with:
+ * Reactjs
+ * Redux
 
-## Available Scripts
+## Usage
+To clone the repo:
 
-In the project directory, you can run:
+$ git clone git@github.com:clone tafaramafemba/covid-19-data.git
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To build the project run:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+$ npm install
 
-### `npm test`
+$ npm run build
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Development
 
-### `npm run build`
+In development environment use the following command:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+$ npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Live
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The website is deployed on Netlify.
 
-### `npm run eject`
+* Netlify: [Netlify](https://626a6d509e960522d8b88852--fastidious-bonbon-e8db3d.netlify.app/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ To see a live demo of this application follow the Loom link below:
+ * Loom: [Loom](https://www.loom.com/share/a795832b10414446b9a1c6e52163d660)
+## Author
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+👤 **Tafara Mafemba**
+- GitHub: [tafaramafemba](https://github.com/tafaramafemba)
+- Twitter: [tafaramafemba](https://twitter.com/the_real_you___)
+- LinkedIn: [tafaramafemba](https://www.linkedin.com/in/tafara-mafemba/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🤝 Contributing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Contributions, issues, and feature requests are welcome!
 
-## Learn More
+Feel free to get in touch with any issues or suggestions.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- 🐛 **Bug reports & issues:** Use [GitHub Issues](https://github.com/tafaramafemba/Covid-19-data/issues "Bugs & Issues")
+- 💡 **Suggestions:** Use [Github Discussions](https://github.com/tafaramafemba/Covid-19-data/discussions "Suggestions")
+- 🙋‍♀️ **General questions:** Use [Github Discussions](https://github.com/tafaramafemba/Covid-19-data/discussions "General Questions")
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Show your support
 
-### Code Splitting
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+##credit
+This design belongs to Creative Commons. Fwollow this link to find out more [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/)
+## 📝 License
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./LICENSE) licensed.

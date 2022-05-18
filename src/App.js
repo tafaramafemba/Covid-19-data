@@ -12,7 +12,7 @@ function App() {
           <div className='back'>
           <Routes>
           <Route path="/" element={<Home />}/>
-          <Route path="/details" element={<Details />}/>
+          <Route path="/:country_name" element={<Details />} />
           </Routes>
           </div>
         </div>

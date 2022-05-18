@@ -3,12 +3,11 @@ function pad2(n) {
 }
 
 var date = new Date();
-var month = pad2(date.getMonth()+1);//months (0-11)
-var day = pad2(date.getDate());//day (1-31)
+var month = pad2(date.getMonth()+1);
+var day = pad2(date.getDate());
 var year= date.getFullYear();
 
 var formattedDate =  year+"-"+month+"-"+day;
-console.log(formattedDate);
 const baseUrl = `https://api.covid19tracking.narrativa.com/api/${formattedDate}`;
 
 const getCountry = async () => {

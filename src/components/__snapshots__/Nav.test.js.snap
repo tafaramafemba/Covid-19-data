@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav component component match with the snapshot 1`] = `
+<div>
+  <nav>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <button
+        className="back"
+      />
+    </a>
+    <h3
+      className="nav-title"
+    />
+    <ul
+      className="nav-ul"
+    >
+      <li
+        className="audio"
+      >
+        <img
+          src="microphone.png"
+        />
+      </li>
+      <li
+        className="settings"
+      >
+        <img
+          src="settings.png"
+        />
+      </li>
+    </ul>
+  </nav>
+</div>
+`;

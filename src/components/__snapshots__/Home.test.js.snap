@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` Home Component Rendering  renders correctly 1`] = `
+<div>
+  <div
+    className="title-container"
+  >
+    <div
+      className="map-backgrnd"
+    >
+      <img
+        alt="map"
+        className="img"
+        src="map.png"
+      />
+    </div>
+    <div>
+      <span
+        className="south-text"
+      >
+        Southern Africa
+      </span>
+    </div>
+  </div>
+  <div
+    className="stats"
+  >
+    <span
+      className="stats"
+    >
+      Stats by country
+    </span>
+  </div>
+  <ul
+    className="home-ul"
+  />
+</div>
+`;

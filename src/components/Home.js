@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch, useSelector} from 'react-redux';
 import { showCountries } from '../redux/home/home';
+import { useNavigate } from 'react-router-dom';
 import '../Home.css';
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
 
   const state = useSelector((state) => state.country.filter((country) => southern.includes(country.name)));
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   console.log(state);
 
   useEffect(() => {
@@ -26,7 +28,7 @@ const Home = () => {
   }, []);
 
   const handleRedirect = (country) => {
-    window.location.href = `/${country}`;
+    navigate(`/${country}`);
   };
 
   return (

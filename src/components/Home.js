@@ -21,7 +21,6 @@ const Home = () => {
   const state = useSelector((state) => state.country.filter((country) => southern.includes(country.name)));
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  console.log(state);
 
   useEffect(() => {
     dispatch(showCountries());
